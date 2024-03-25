@@ -17,6 +17,7 @@ The default experimental settings for these four parameters were as follows:
 - **Kernel_sizes = 25**
   
 The experimental results for each hyperparameter are as follows:
+
 **Dropout**:
 
 | Dataset        | ETTm1 |       | ETTm2 |       |
