@@ -12,7 +12,9 @@ According to the suggestions from reviewer xxyy, we conducted additional experim
 
 [Crossformer](https://openreview.net/pdf?id=vSVLM2j9eie),
 
-and two experimental tasks: input-96-forecast-96/720. The experimental results are as follows:
+and two experimental tasks: **input-96-forecast-96/720**. 
+
+The experimental results are as follows:
 
 | Models       | pred_len | Leddam(Ours) | iTransformer | MICN  | DLinear | PatchTST | Crossformer |
 |--------------|----------|--------------|--------------|-------|---------|----------|-------------|
