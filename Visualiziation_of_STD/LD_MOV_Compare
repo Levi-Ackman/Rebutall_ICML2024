@@ -17,7 +17,7 @@ Below are the results:
 | Kernel         | LD (Ours) |       | MOV     |       |
 |----------------|-----------|-------|---------|-------|
 | Dataset\Metric | DTW       | FFT   | DTW     | FFT   |
-| Electricity    | 0.633     | 0.978 | 0.614   | 0.913 |
+| Electricity    | **0.633**     | 0.978 | 0.614   | 0.913 |
 | Solar_Energy   | 0.602     | 0.960 | 0.590   | 0.920 |
 | Traffic        | 0.650     | 0.813 | 0.621   | 0.732 |
 | weather        | 0.694     | 0.987 | 0.686   | 0.956 |
