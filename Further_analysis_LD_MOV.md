@@ -10,7 +10,7 @@ to compute the similarity between the original sequence and the trend parts obta
 
 Bellow are the result:
 
-| Kernel---------|---LD(Ours)--|-----MOV-----|
+|-Kernel---------|---LD(Ours)--|-----MOV-----|
 
 |----------------|------|------|------|------|
 
