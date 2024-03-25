@@ -3,7 +3,7 @@ We sequentially evaluated the MAE, MSE for predictions, parameter count, and the
 
 | Models       | Parameter(M) | time(ms) | MSE   | MAE   |
 |--------------|--------------|----------|-------|-------|
-| Leddam       | 1.450        | 6.581    | 0.457 | 0.457 |
+| Leddam       | **1.450**        | **6.581**    | **0.457** | **0.457** |
 | iTransformer | 5.154        | 10.437   | 0.503 | 0.491 |
 | Crossformer  | 6.875        | 49.387   | 0.814 | 0.692 |
 | PatchTST     | 9.168        | 13.785   | 0.529 | 0.500 |
