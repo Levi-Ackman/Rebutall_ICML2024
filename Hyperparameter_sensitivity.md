@@ -1,10 +1,13 @@
-We investigated the impact of the most significant parameters of our Leddam to forecasting performance: model dimension (dim), number of dual attention layers (n_layer), dropout ratio (dropout), and size of decomposition kernel (kernel_size). We conducted experiments on the ETTm1 and ETTm2 datasets, where the experimental setup is input-96-forecast-720. The default experimental settings for these four parameters were as follows:
-- dropout = 0.0
-- dim = 512
-- n_layer = 2
-- Kernel_sizes = 25
+We investigated the impact of the most significant parameters of our Leddam to forecasting performance: 
+**model dimension (dim)**, **number of dual attention layers (n_layer)**, **dropout ratio (dropout)**, and **size of decomposition kernel (kernel_size)**. 
+We conducted experiments on the **ETTm1** and **ETTm2** datasets, where the experimental setup is **input-96-forecast-720**. 
+The default experimental settings for these four parameters were as follows:
+- **dropout = 0.0**
+- **dim = 512**
+- **n_layer = 2**
+- **Kernel_sizes = 25**
 The experimental results for each hyperparameter are as follows:
-Dropout:
+**Dropout**:
 
 | Dataset        |      ETTm1    |     ETTm2     |
 |----------------|-------|-------|-------|-------|
@@ -14,7 +17,7 @@ Dropout:
 | 0.2            | 0.476 | 0.452 | 0.406 | 0.401 |
 | 0.5            | 0.474 | 0.452 | 0.409 | 0.404 |
 
-Dim:
+**Dim**:
 
 | Dataset        |      ETTm1    |     ETTm2     |
 |----------------|-------|-------|-------|-------|
@@ -24,7 +27,7 @@ Dim:
 | 512            | 0.469 | 0.447 | 0.406 | 0.400 |
 | 1024           | 0.492 | 0.459 | 0.402 | 0.397 |
 
-n_layer:
+**n_layer**:
 
 | Dataset        |      ETTm1    |     ETTm2     |
 |----------------|-------|-------|-------|-------|
@@ -35,7 +38,7 @@ n_layer:
 | 4              | 0.485 | 0.456 | 0.407 | 0.401 |
 
 
-Kernel_size:
+**Kernel_size**:
 
 | Dataset        |      ETTm1    |     ETTm2     |
 |----------------|-------|-------|-------|-------|
