@@ -14,7 +14,7 @@ A superior decomposition strategy should result in a trend part with higher DTW 
 
 Below are the results:
 
-| Kernel         | LD (Ours) |       | MOV     |       |
+| Kernel         | LD (Ours) |   LD (Ours)    | MOV     |    MOV     |
 |----------------|-----------|-------|---------|-------|
 | Dataset\Metric | DTW       | FFT   | DTW     | FFT   |
 | Electricity    | **0.633**     | **0.978** | 0.614   | 0.913 |
