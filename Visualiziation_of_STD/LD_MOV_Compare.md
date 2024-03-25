@@ -5,11 +5,11 @@ the simple moving average kernel (MOV), we conducted the following analysis on t
 Specifically, since the seasonal part represents repetitive patterns in the original sequence, 
 a good seasonal part should capture all major frequencies in the original sequence.        
 Hence, we separately calculated the similarity between the seasonal part obtained from
-two decomposition strategies and the dominant frequencies of the first 66.6% (i.e., the first 2/3) of the original sequence. 
+two decomposition strategies and the dominant frequencies of the top **66.6%** (i.e., the topk **2/3**) of the original sequence. 
 A better decomposition strategy should yield a seasonal part with higher similarity to the dominant frequencies of the original sequence.
 
 Additionally, for a good trend part, it should effectively capture the trend changes in the original sequence. 
-Thus, we utilized Dynamic Time Warping (DTW) to compute the similarity between the original sequence and the trend parts obtained from the two decompositions. 
+Thus, we utilized Dynamic Time Warping [DTW](https://doi.org/10.1007/978-3-540-74048-3_4) to compute the similarity between the original sequence and the trend parts obtained from the two decompositions. 
 A superior decomposition strategy should result in a trend part with higher DTW similarity to the original sequence.
 
 Below are the results:
