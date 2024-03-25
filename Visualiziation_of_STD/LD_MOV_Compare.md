@@ -26,3 +26,5 @@ Below are the results:
 | ETTm1          | **0.711**     | **0.909** | 0.704   | 0.846 |
 | ETTm2          | **0.592**     | **0.921** | 0.573   | 0.907 |
 
+Given advice from reviewer xxx, in addition to the visualization results of the **trend part** obtained from the time series decomposition by LD and MOV as mentioned in the original paper, we further provide the visualization results of the **seasonal part** here. We will also incorporate these results into the final version of our paper!
+
