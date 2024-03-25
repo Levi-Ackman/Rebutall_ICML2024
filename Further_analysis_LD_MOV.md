@@ -9,6 +9,7 @@ DTW(0, j) = ∞, for j > 0
 to compute the similarity between the original sequence and the trend parts obtained from the two decompositions. A superior decomposition strategy should result in a trend part with higher DTW similarity to the original sequence.
 
 Bellow are the result:
+
 | Kernel         |   LD(Ours)  |     MOV     |
 |----------------|------|------|------|------|
 | Dataset\Metric | DTW  | FFT  | DTW  | FFT  |
