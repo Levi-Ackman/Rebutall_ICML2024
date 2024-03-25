@@ -15,6 +15,7 @@ The default experimental settings for these four parameters were as follows:
 - **dim = 512**
 - **n_layer = 2**
 - **Kernel_sizes = 25**
+  
 The experimental results for each hyperparameter are as follows:
 **Dropout**:
 
