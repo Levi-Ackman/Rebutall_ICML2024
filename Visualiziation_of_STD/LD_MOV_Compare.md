@@ -1,4 +1,4 @@
-# Further decomposition strategy Analysis
+# Further Analysis of different decomposition strategy
 
 To further investigate why our learnable decomposition kernel (LD) is a better time series decomposition solution than 
 the simple moving average kernel (MOV), we conducted the following analysis on the seasonal part and trend part obtained from decomposition on eight datasets. 
