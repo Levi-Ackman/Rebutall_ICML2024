@@ -1,11 +1,9 @@
 We investigated the impact of the most significant parameters of our Leddam to forecasting performance: 
 **model dimension (dim)**, 
-
 **number of dual attention layers (n_layer)**, 
-
 **dropout ratio (dropout)**, 
-
 and **size of decomposition kernel (kernel_size)**. 
+
 We conducted experiments on the **ETTm1** and **ETTm2** datasets, where the experimental setup is **input-96-forecast-720**. 
 The default experimental settings for these four parameters were as follows:
 - **dropout = 0.0**
