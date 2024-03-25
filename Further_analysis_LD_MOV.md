@@ -6,11 +6,11 @@ DTW(0, 0) = 0
 DTW(i, 0) = ∞, for i > 0
 DTW(0, j) = ∞, for j > 0
 
-to compute the similarity between the original sequence and the trend parts obtained from the two decompositions. A superior decomposition strategy should result in a trend part with higher DTW similarity to the original sequence.
+To compute the similarity between the original sequence and the trend parts obtained from the two decompositions. A superior decomposition strategy should result in a trend part with higher DTW similarity to the original sequence.
 
 Bellow are the result:
 
-|-Kernel---------|---LD(Ours)--|-----MOV-----|
+|Kernel---------|---LD(Ours)--|-----MOV-----|
 
 |----------------|------|------|------|------|
 
