@@ -38,7 +38,7 @@ Given advice from reviewer xxx, in addition to the visualization results of the 
 
 ## ETTh1 Seasonal part obttained by LD(Red) and MOV(Blue)
 
-<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="900" height="600">
+<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="600" height="600">
 
 <div style="display:flex">
   <div style="flex:1">
@@ -50,6 +50,7 @@ Given advice from reviewer xxx, in addition to the visualization results of the 
     <img src="ETTh1/season.png" alt="ETTh1 seasonal" width="45%">
   </div>
 </div>
+
 
 
 
