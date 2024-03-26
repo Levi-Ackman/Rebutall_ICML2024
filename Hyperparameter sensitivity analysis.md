@@ -1,3 +1,5 @@
+## Hyperparameter sensitivity study
+
 We investigated the impact of the most significant parameters of our Leddam to forecasting performance: 
 
 **model dimension (dim)**, 
