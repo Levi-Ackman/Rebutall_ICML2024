@@ -2,6 +2,7 @@
 
 To further investigate why our learnable decomposition kernel (LD) is a better time series decomposition solution than 
 the simple moving average kernel ([MOV](https://arxiv.org/abs/2106.13008)), we conducted the following analysis on the seasonal part and trend part obtained from decomposition on eight datasets. 
+
 Specifically, since the seasonal part represents repetitive patterns in the original sequence, 
 a good seasonal part should capture all major frequencies in the original sequence.        
 Hence, we separately calculated the similarity between the seasonal part obtained from
