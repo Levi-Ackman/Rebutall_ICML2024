@@ -31,5 +31,8 @@ Below are the results:
 
 It is very clear and a strong argument that **our LD** significantly outperforms **[MOV](https://arxiv.org/abs/2106.13008)** on eight datasets in terms of two metrics: **FFT** (similarity between the seasonal part and the most dominant frequency of the raw time series——**top 66.6%**) and **DTW** (DTW similarity between the trend part and the raw time series). Therefore, it is rational to conclude that **our LD is a superior time series decomposition approach compared to naive MOV**.
 
-Given advice from reviewer xxx, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, we further provide the visualization results of the **seasonal part** here. Readers can access the visualization results for different datasets in the corresponding folders provided. We will also incorporate these results into the final version of our paper!
+Given advice from reviewer xxx, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, we further provide the visualization results of the **seasonal part** here.
+
+![ETTh1 trend](Visualiziation_of_STD/ETTh1/trend.png)
+![ETTh1 seasonal](Visualiziation_of_STD/ETTh1/season.png)
 
