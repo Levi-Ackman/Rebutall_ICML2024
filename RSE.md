@@ -1,4 +1,4 @@
-According to the suggestions from reviewer xxyy, we conducted additional experiments on the **ETTm1**, **ETTm2**, and **Weather** datasets to explore the model's performance in terms of **R-squared** (the coefficient of determination). Due to time and computational constraints, we selected a subset of the most representative models: 
+According to the suggestions from reviewer xxyy, we conducted additional experiments on the **ETTm1**, **ETTm2**, and **Weather** datasets to explore the model's performance in terms of **R-squared（RSE）** (the coefficient of determination). Due to time and computational constraints, we selected a subset of the most representative models: 
 
 **Leedam (Ours)**, 
 
@@ -26,3 +26,4 @@ The experimental results are as follows:
 | Weather      | 96       | 0.522        | 0.554        | 0.577 | 0.585   | 0.549    | **0.511**       |
 |              | 720      | **0.769**        | 0.787        | 0.758 | 0.776   | 0.780    | 0.802       |
 
+It is readily apparent that when using RSE as the evaluation metric, **Leddam** still distinctly outperforms most other methods on the majority of datasets and prediction tasks. This once again demonstrates the superiority of **Leddam** in the multivariates time series forecasting domain.
