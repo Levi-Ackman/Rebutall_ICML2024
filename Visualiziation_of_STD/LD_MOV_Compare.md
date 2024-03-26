@@ -37,6 +37,19 @@ Given advice from reviewer xxx, in addition to the visualization results of the 
 <img src="ETTh1/trend.png" alt="ETTh1 trend" width="600" height="400">
 
 ## ETTh1 Seasonal part obttained by LD(Red) and MOV(Blue)
-<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="600" height="400">
+
+<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="900" height="600">
+
+<div style="display:flex">
+  <div style="flex:1">
+    <p align="center">ETTh1 trend</p>
+    <img src="ETTh1/trend.png" alt="ETTh1 trend" width="45%">
+  </div>
+  <div style="flex:1">
+    <p align="center">ETTh1 seasonal</p>
+    <img src="ETTh1/season.png" alt="ETTh1 seasonal" width="45%">
+  </div>
+</div>
+
 
 
