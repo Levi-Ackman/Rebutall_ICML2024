@@ -59,5 +59,5 @@ The experimental results for each hyperparameter are as follows:
 | 75             | 0.470 | 0.446 | 0.406 | 0.401 |
 | 105            | 0.469 | 0.447 | 0.406 | 0.400 |
 
-
+Based on the experimental data presented above, we can easily conclude that our Leddam model is insensitive to dropout ratio and kernel size, while it is more sensitive to the number of Dual Attention layers and the model dimension. Therefore, careful selection of these two parameters is necessary in practical applications, which is equally important as with other models.
 
