@@ -1,3 +1,5 @@
+## Further analysis of different attention mechanism in intra-sereis variation modeling
+
 To better explore the capabilities of different attention mechanisms in modeling intra-series variation, we achieved this by investigating the dependencies of different attention mechanisms: **point-wise**, **patch-wise**, and **auto-regressive**, on **positional encoding**.
 
 We conducted experiments on two prediction tasks: **input-96-forecast-96/720** on three datasets: **ETTm1**, **ETTm2**, and **Weather**.
