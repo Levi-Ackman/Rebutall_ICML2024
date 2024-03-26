@@ -1,3 +1,5 @@
+## Model efficiency analysis
+
 Taking the prediction task of input-96-forecast-720 on the ETTh1 dataset as an example, we explored the efficiency of **Leddam (Ours)** and four state-of-the-art transformer-based multi-variate time series forecasting models: [iTransformer](https://arxiv.org/abs/2310.06625), [Crossformer](https://openreview.net/pdf?id=vSVLM2j9eie), [PatchTST](https://openreview.net/pdf?id=Jbdc0vTOcol), and [FEDformer](https://arxiv.org/abs/2201.12740). 
 We sequentially evaluated the MAE, MSE for predictions, parameter count, and the inference time for a batch size of 128. We set the model dimension uniformly to 512.
 
