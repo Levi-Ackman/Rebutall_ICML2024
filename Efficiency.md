@@ -10,3 +10,4 @@ We sequentially evaluated the MAE, MSE for predictions, parameter count, and the
 | FEDformer    | 18.060       | 37.332   | 0.506 | 0.507 |
 
 Due to the fact that our Leddam model only requires a single layer of Dual Attention to achieve optimal predictive performance, it excels in inference speed, parameter efficiency, and other metrics!
+Due to implementation of the learnable decomposition kernel, which consists of a convolutional kernel with a kernel size of 25 shared across all channels, the total number of parameters is only 25 (kernel parameters) + 1 (bias). Indeed, it is a quite small number of parameters.
