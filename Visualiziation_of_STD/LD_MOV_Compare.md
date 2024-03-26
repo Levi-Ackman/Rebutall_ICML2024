@@ -34,9 +34,9 @@ It is very clear and a strong argument that **our LD** significantly outperforms
 Given advice from reviewer xxx, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, we further provide the visualization results of the **seasonal part** here.
 
 ## ETTh1 Trend part obttained by LD(Red) and MOV(Blue)
-<img src="ETTh1/trend" alt="ETTh1 trend" width="300" height="200">
+<img src="ETTh1/trend.png" alt="ETTh1 trend" width="600" height="400">
 
 ## ETTh1 Seasonal part obttained by LD(Red) and MOV(Blue)
-<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="300" height="200">
+<img src="ETTh1/season.png" alt="ETTh1 seasonal" width="600" height="400">
 
 
