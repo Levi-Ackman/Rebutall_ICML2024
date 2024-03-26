@@ -26,5 +26,7 @@ Below are the results:
 | ETTm1          | **0.711**     | **0.909** | 0.704   | 0.846 |
 | ETTm2          | **0.592**     | **0.921** | 0.573   | 0.907 |
 
+It is very clear and a strong argument that **our LD** significantly outperforms **MOV** on eight datasets in terms of two metrics: **FFT** (similarity between the seasonal part and the most dominant frequency of the raw time series——**top 66.6%**) and **DTW** (DTW similarity between the trend part and the raw time series). Therefore, it is rational to conclude that **our LD is a superior time series decomposition approach compared to naive MOV**.
+
 Given advice from reviewer xxx, in addition to the visualization results of the **trend part** obtained from the time series decomposition by LD and MOV as mentioned in the original paper, we further provide the visualization results of the **seasonal part** here. Readers can access the visualization results for different datasets in the corresponding folders provided. We will also incorporate these results into the final version of our paper!
 
