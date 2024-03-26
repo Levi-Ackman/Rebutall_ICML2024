@@ -11,3 +11,5 @@ To ensure fair comparison, we followed [TimesNet](https://arxiv.org/abs/2210.021
 |           | 720    | **0.188**      | **0.285**      | 0.197        | 0.290        | 0.203       | 0.301       |
 | Weather   | 96     | 0.152      | **0.197**      | **0.149**        | 0.198        | 0.176       | 0.237       |
 |           | 720    | **0.312**      | **0.332**      | 0.314        | 0.334        | 0.323       | 0.362       |
+
+We can easily observe that in scenarios with a longer look-back window (longer historical inputs), our Leddam model still outperforms state-of-the-art models like PatchTST.
