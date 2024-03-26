@@ -1,3 +1,5 @@
+## Further comparison of forecasting performance using RSE as the evaluation metric
+
 According to the suggestions from reviewer xxyy, we conducted additional experiments on the **ETTm1**, **ETTm2**, and **Weather** datasets to explore the model's performance in terms of **R-squared（RSE）** (the coefficient of determination). Due to time and computational constraints, we selected a subset of the most representative models: 
 
 **Leedam (Ours)**, 
