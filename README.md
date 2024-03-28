@@ -1,6 +1,6 @@
 # Leddam
 
-This is the supplementary experiment and visualization repository for the paper "**Revitalizing Multivariate Time Series Forecasting: Learnable Decomposition with Inter-Series Dependencies and Intra-Series Variations Modeling**," currently under review at ICML 2024.
+This is the supplementary experiment and visualization repository for the paper "**Revitalizing Multivariate Time Series Forecasting: Learnable Decomposition with Inter-Series Dependencies and Intra-Series Variations Modeling**," currently under reviewed at ICML 2024.
 
 ## Readers can check each markdown file to view corresponding supplementary experiments and analyses.
 
@@ -10,7 +10,7 @@ Further performance comparisons of predictions were made using an input length o
 
 **Further LD and MOV comparison and analysis.md：** 
 
-Further Analysis of different decomposition strategy, and visualization of both trend part and seasonal part.
+Further Analysis of different decomposition strategy.
 
 **Further analysis of Auto-regressive self-attention.md：** 
 
