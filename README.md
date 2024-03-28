@@ -4,6 +4,10 @@ This is the supplementary experiment and visualization repository for the paper 
 
 ## Readers can check each markdown file to view corresponding supplementary experiments and analyses.
 
+**Seasonal-Trend Visualization.md：** 
+
+Visualization of both Seasonal and Trend part decomposed by **LD** and **MOV** from eight datasets.
+
 **Fair comparison with PatchTST.md：** 
 
 Further performance comparisons of predictions were made using an input length of 512 (aligned with PatchTST).
