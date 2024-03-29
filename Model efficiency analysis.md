@@ -1,4 +1,4 @@
-We evaluated the **parameter count**, and the **inference time(average of 5 runs)** wiht batch_size\= **1** on **ETTh1 and Electricity** dataset. We set the model dimension in {256,512}, and number of backbone layers to **2**.
+We evaluated the **parameter count**, and the **inference time(average of 5 runs)** wiht batch_size\= **1** on **ETTh1 and Electricity** dataset. We set the model dimension in {256, 512}, and number of backbone layers to **2**. The task is **input-96-forecast-720.**
 
 We explored **Leddam (Ours)** and four transformer-based multivariate time series forecasting models: **iTransformer**, **Crossformer**, **PatchTST**, and **FEDformer**. 
 
