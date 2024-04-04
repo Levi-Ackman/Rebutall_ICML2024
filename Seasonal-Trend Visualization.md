@@ -1,16 +1,16 @@
 Given advice from **reviewer 5uUN**, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, 
 we further provide the visualization results of the **seasonal part** here.
 
-We selected **the final dimension of each dataset**. The variables used are as follows: 
+We selected **the final variate of each dataset**. The variates used are as follows: 
 - ETTh1&2, ETTm1&2: Oil Temperature (OT) every **hour or 15minutes**.
-- Electricity: the **hourly** electricity consumption of the 321th (last) user.
-- Solar-Energy: the solar power production every **10 minutes** of the 137th(last) PV plant.
-- Traffic: the **hourly** road occupancy rates measured by the 862th(last) sensor.
+- Electricity:  **hourly** electricity consumption of the 321th (last) user.
+- Solar-Energy:  solar power production every **10 minutes** of the 137th(last) PV plant.
+- Traffic:  **hourly** road occupancy rates measured by the 862th(last) sensor.
 - Weather: CO2 (ppm) collected every **10 minutes**.
   
 **LD** are pretrained on task: **input-96-forecast-720.**
 
-Given a sampling frequency of 10, 15 minutes, or 1 hour for these datasets, we opt to decompose time series into two lengths: **120 and 720**, to better contrast the decomposition results and reflect the extracted seasonal and trend patterns.
+Given a sampling frequency of 10, 15 minutes, or 1 hour for these datasets, we opt to decompose time series of two lengths: **120 and 720**, to better contrast the decomposition results and reflect the extracted seasonal and trend patterns respectively.
 
 #### ETTh1 Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
 <img src="Visualiziation_of_STD_120/ETTh1/trend.png" alt="ETTh1 trend" width=49%> <img src="Visualiziation_of_STD_120/ETTh1/season.png" alt="ETTh1 seasonal" width=49%>
