@@ -28,7 +28,7 @@ Hyperparameter sensitivity study(model dimension (dim),number of dual attention 
 
 We sequentially evaluated the MAE, MSE for predictions, parameter count, and the inference time for a batch size of 128. We set the model dimension uniformly to 512.
 
-**RSE metric result.md:**
+**R-squared metric result.md:**
 
-Further comparison of forecasting performance using RSE as the evaluation metric
+Further comparison of forecasting performance using R-squared as the evaluation metric
 
