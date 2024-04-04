@@ -11,3 +11,6 @@ Reults:
 |            | 720      | **0.407**     | 0.380        | 0.425 | 0.398   | 0.391    | 0.364       |
 
 It is clear that Leddam still distinctly outperforms other methods on **R-squared**, which indicates Leddam could better captures the underlying relationships in the data.
+
+
+
