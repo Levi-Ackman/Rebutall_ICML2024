@@ -1,4 +1,5 @@
 Considering invaluable suggestions of reviewer **cHaS**, we conducted additional experiments to explore performance of **Leedam (Ours)**, [iTransformer](https://arxiv.org/abs/2310.06625), [MICN](https://openreview.net/pdf?id=zt53IDUR1U), [DLinear](https://arxiv.org/pdf/2205.13504.pdf),[PatchTST](https://arxiv.org/abs/2211.14730), [Crossformer](https://openreview.net/pdf?id=vSVLM2j9eie), in terms of **R-squared(Vlaue between 0 and 1, the larger, the better)**. 
+
 Reults:
 |Models|pred_len|Leddam(Ours)|iTransformer|MICN|DLinear|PatchTST|Crossformer|
 |-|-|-|-|-|-|-|-|
