@@ -10,28 +10,37 @@ We selected **the final dimension of each dataset**. The variables used are as f
   
 **LD** are pretrained on task: **input-96-forecast-720.**
 
-Considering a sampling frequency of **10, 15 minutes, or 1 hour** for these dataset, we choose to decompose time series of uniform length **120**.
+Given a sampling frequency of 10, 15 minutes, or 1 hour for these datasets, we opt to decompose time series into two lengths: **120 and 720**, to better contrast the decomposition results and reflect the extracted seasonal and trend patterns.
 
-#### ETTh1 Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/ETTh1/trend.png" alt="ETTh1 trend" width=49%> <img src="Visualiziation_of_STD/ETTh1/season.png" alt="ETTh1 seasonal" width=49%>
-
-#### ETTh2 Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/ETTh2/trend.png" alt="ETTh2 trend" width=49%> <img src="Visualiziation_of_STD/ETTh2/season.png" alt="ETTh2 seasonal" width=49%>
-
-#### ETTm1 Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/ETTm1/trend.png" alt="ETTm1 trend" width=49%> <img src="Visualiziation_of_STD/ETTm1/season.png" alt="ETTm1 seasonal" width=49%>
-
-#### ETTm2 Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/ETTm2/trend.png" alt="ETTm2 trend" width=49%> <img src="Visualiziation_of_STD/ETTm2/season.png" alt="ETTm2 seasonal" width=49%>
-
-#### Electricity Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/Electricity/trend.png" alt="Electricity trend" width=49%> <img src="Visualiziation_of_STD/Electricity/season.png" alt="Electricity seasonal" width=49%>
-
-#### Traffic Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/Traffic/trend.png" alt="Traffic trend" width=49%> <img src="Visualiziation_of_STD/Traffic/season.png" alt="Traffic seasonal" width=49%>
-
-#### Solar Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/Solar/trend.png" alt="Solar trend" width=49%> <img src="Visualiziation_of_STD/Solar/season.png" alt="Solar seasonal" width=49%>
-
-#### Weather Trend-Seasonal Decomposition Results obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
-<img src="Visualiziation_of_STD/Weather/trend.png" alt="Weather trend" width=49%> <img src="Visualiziation_of_STD/Weather/season.png" alt="Weather seasonal" width=49%>
+#### ETTh1 Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/ETTh1/trend.png" alt="ETTh1 trend" width=49%> <img src="Visualiziation_of_STD_120/ETTh1/season.png" alt="ETTh1 seasonal" width=49%>
+#### ETTh1 Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/ETTh1/trend.png" alt="ETTh1 trend" width=49%> <img src="Visualiziation_of_STD_720/ETTh1/season.png" alt="ETTh1 seasonal" width=49%>
+#### ETTh2 Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/ETTh2/trend.png" alt="ETTh2 trend" width=49%> <img src="Visualiziation_of_STD_120/ETTh2/season.png" alt="ETTh2 seasonal" width=49%>
+#### ETTh2 Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/ETTh2/trend.png" alt="ETTh2 trend" width=49%> <img src="Visualiziation_of_STD_720/ETTh2/season.png" alt="ETTh2 seasonal" width=49%>
+#### ETTm1 Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/ETTm1/trend.png" alt="ETTm1 trend" width=49%> <img src="Visualiziation_of_STD_120/ETTm1/season.png" alt="ETTm1 seasonal" width=49%>
+#### ETTm1 Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/ETTm1/trend.png" alt="ETTm1 trend" width=49%> <img src="Visualiziation_of_STD_720/ETTm1/season.png" alt="ETTm1 seasonal" width=49%>
+#### ETTm2 Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/ETTm2/trend.png" alt="ETTm2 trend" width=49%> <img src="Visualiziation_of_STD_120/ETTm2/season.png" alt="ETTm2 seasonal" width=49%>
+#### ETTm2 Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/ETTm2/trend.png" alt="ETTm2 trend" width=49%> <img src="Visualiziation_of_STD_720/ETTm2/season.png" alt="ETTm2 seasonal" width=49%>
+#### Electricity Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/Electricity/trend.png" alt="Electricity trend" width=49%> <img src="Visualiziation_of_STD_120/Electricity/season.png" alt="Electricity seasonal" width=49%>
+#### Electricity Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/Electricity/trend.png" alt="Electricity trend" width=49%> <img src="Visualiziation_of_STD_720/Electricity/season.png" alt="Electricity seasonal" width=49%>
+#### Traffic Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/Traffic/trend.png" alt="Traffic trend" width=49%> <img src="Visualiziation_of_STD_120/Traffic/season.png" alt="Traffic seasonal" width=49%>
+#### Traffic Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/Traffic/trend.png" alt="Traffic trend" width=49%> <img src="Visualiziation_of_STD_720/Traffic/season.png" alt="Traffic seasonal" width=49%>
+#### Solar Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/Solar/trend.png" alt="Solar trend" width=49%> <img src="Visualiziation_of_STD_120/Solar/season.png" alt="Solar seasonal" width=49%>
+#### Solar Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/Solar/trend.png" alt="Solar trend" width=49%> <img src="Visualiziation_of_STD_720/Solar/season.png" alt="Solar seasonal" width=49%>
+#### Weather Trend-Seasonal Decomposition Results of input-120 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_120/Weather/trend.png" alt="Weather trend" width=49%> <img src="Visualiziation_of_STD_120/Weather/season.png" alt="Weather seasonal" width=49%>
+#### Weather Trend-Seasonal Decomposition Results of input-720 obttained by LD(Red) and MOV(Blue).  Left Trend part, Right seasonal Part.
+<img src="Visualiziation_of_STD_720/Weather/trend.png" alt="Weather trend" width=49%> <img src="Visualiziation_of_STD_720/Weather/season.png" alt="Weather seasonal" width=49%>
