@@ -1,7 +1,7 @@
 To further investigate why our **LD** is a better time series decomposition solution than moving average kernel (**MOV**), we conducted the following analysis on the seasonal part and trend part obtained. 
 
 Since the seasonal part represents repetitive patterns in the raw sequence, **a good seasonal part should capture all major frequencies in the raw sequence.**
-We separately calculated the **amplitude similarity of the dominant frequencies of the top **66.6%** (i.e., the top **2/3**)** between the seasonal part obtained from LD and MOV and the raw sequence.
+We separately calculated the **amplitude similarity of the dominant frequencies(top 25%)** between the seasonal part obtained from LD and MOV and the raw sequence.
 
 **A better decomposition strategy should yield a seasonal part with higher similarity to the dominant frequencies of the raw sequence.**
 
