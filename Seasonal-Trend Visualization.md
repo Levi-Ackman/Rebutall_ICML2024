@@ -2,7 +2,7 @@ Given advice from **reviewer 5uUN**, in addition to the visualization results of
 we further provide the visualization results of the **seasonal part** here.
 
 We selected **the final dimension of each dataset**. The variables used are as follows: 
-- ETTh1&2, ETTm1&2: Oil Temperature (OT) **every **hour or 15minutes**.
+- ETTh1&2, ETTm1&2: Oil Temperature (OT) every **hour or 15minutes**.
 - Electricity: the **hourly** electricity consumption of the 321th (last) user.
 - Solar-Energy: the solar power production every **10 minutes** of the 137th(last) PV plant.
 - Traffic: the **hourly** road occupancy rates measured by the 862th(last) sensor.
