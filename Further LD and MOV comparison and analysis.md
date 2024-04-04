@@ -9,19 +9,27 @@ We separately calculated the **amplitude similarity of the dominant frequencies 
 
 **A superior decomposition strategy should result in a trend part with higher DTW similarity to the raw sequence.**
 
-Results:
+We selected **the final dimension of each dataset**. The variables used are as follows: 
+- For ETTh1&2, ETTm1&2, the variable represents the Oil Temperature (OT).
+- For Electricity, it denotes the hourly electricity consumption of the 321th (last) user.
+- Solar-Energy corresponds to the solar power production of the 137th PV plant.
+- Traffic signifies the hourly road occupancy rates measured by the 862th sensor.
+- Weather refers to CO2 (ppm) collected every 10 minutes.
+  
+*To avoid cherry-picking, both metrics are computed by averaging the results calculated over the entire dataset.*
 
+Results:
 |Kernel|LD (Ours)|LD (Ours)|MOV|MOV|
 |-|-|-|-|-|
 |Dataset\Metric|DTW|FFT|DTW|FFT|
-|Electricity|**0.633**|**0.978**|0.614|0.913|
-|Solar_Energy|**0.602**|**0.960**|0.590|0.920|
-|Traffic|**0.650**|**0.813**|0.621|0.732|
-|weather|**0.694**|**0.987**|0.686|0.956|
-|ETTh1|**0.676**|**0.995**|0.670|0.983|
-|ETTh2|**0.689**|**0.996**|0.683|0.834|
-|ETTm1|**0.711**|**0.909**|0.704|0.846|
-|ETTm2|**0.592**|**0.921**|0.573|0.907|
+|Electricity|**0.643**|**0.942**|0.618|0.931|
+|Solar_Energy|**0.910**|**0.781**|0.873|0.734|
+|Traffic|**0.603**|**0.993**|0.563|0.991|
+|weather|**0.858**|**0.760**|0.846|0.690|
+|ETTh1|**0.741**|**0.892**|0.724|0.852|
+|ETTh2|**0.675**|**0.900**|0.652|0.887|
+|ETTm1|**0.821**|**0.754**|0.808|0.717|
+|ETTm2|**0.925**|**0.894**|0.908|0.759|
 
 **LD** significantly outperforms **MOV** on eight datasets in: **FFT** (similarity of the most dominant frequency between the seasonal part and raw series) and **DTW** (DTW similarity between the trend part and the raw series). 
 
