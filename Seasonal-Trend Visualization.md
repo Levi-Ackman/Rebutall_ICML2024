@@ -1,4 +1,4 @@
-Given advice from reviewer 5uUN, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, 
+Given advice from **reviewer 5uUN**, in addition to the visualization results of the **trend part** obtained from the time series decomposition by **LD** and **[MOV](https://arxiv.org/abs/2106.13008)** as mentioned in the original paper, 
 we further provide the visualization results of the **seasonal part** here.
 
 We selected **the final dimension of each dataset**. The variables used are as follows: 
